@@ -114,6 +114,7 @@ nav{
     display: flex;
     justify-content: space-between;
     background-color: black;
+    padding-right: 65px;
 }
 .card{
     margin: 4% 2% 2% 7%;
@@ -136,4 +137,8 @@ nav{
     margin-left: 80px;
     margin-bottom: 10px;
     width: 50%;
+}
+.card button:hover{
+    background: transparent;
+    color: black;
 }
