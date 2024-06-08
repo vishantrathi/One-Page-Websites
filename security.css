@@ -1,0 +1,139 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    position:relative;
+}
+nav{
+    
+    background-color: black;
+    color: white;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+.navbar a{
+
+    text-decoration: none;
+    color: white;
+}
+.navbar2{
+    background-image: url('./img/1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    font: size 20px;
+}
+.navbar2{
+    list-style: none;
+}
+.navbar2 a{
+    margin-left: 15px;
+    font-size: 30px;
+    font-weight: bold;
+
+    text-decoration: none;
+    color: white;
+}
+.navbar2 li a{
+    list-style: none;
+    margin-right: 15px;
+    color: white;
+    font-size: 19px;
+}
+.navbar2 li a:hover{   
+    background-color: black;
+    padding: 15px;
+    font-size:25px ;
+}
+.bannerheading{
+    margin-top: -350px;
+    margin-left: 100px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+.bannerheading h2{
+    font-size: 50px;
+    font-weight: bold;
+    color: yellow;
+}
+.bannerheading p{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+.btn{
+    gap: 100PX;
+}
+.btn:hover{
+    background: transparent;
+    color: white;
+}
+.section3{
+    display: flex;
+    justify-content: space-between;
+}
+.section3 img{
+    margin: 140px 30px;
+
+}
+.section3 h1{
+    width: 131%;
+    margin-top: 138px;
+    font-size: 34px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+.section3 p{
+
+    font-size: 20px;
+    width: 207%;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    margin-top: 191px;
+    margin-left: -331px;
+
+}
+.section3 button{
+    margin-left: -40px;
+    margin-top: 5px;
+}
+
+.section3 button:hover{
+    background: transparent;
+    color: black;
+}
+.section4{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+.card{
+    margin: 4% 2% 2% 7%;
+    margin-top: 50px;
+}
+.card h3{
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 61px;
+}
+.card p{
+    margin: 10px;
+}
+.card img{
+    margin: 51px;
+    width: 64%;
+    height: 100%;
+}
+.card button{
+    margin-left: 80px;
+    margin-bottom: 10px;
+    width: 50%;
+}
