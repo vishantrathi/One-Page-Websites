@@ -142,3 +142,10 @@ nav{
     background: transparent;
     color: black;
 }
+.section6{
+    background-image: url('./img/4.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 80vh;
+}
