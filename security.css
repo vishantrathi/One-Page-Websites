@@ -1,5 +1,5 @@
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Georgia, "Times New Roman", Times, serif;
     position:relative;
 }
 nav{
@@ -12,6 +12,7 @@ nav{
     display: flex;
     justify-content: space-between;
     padding: 5px;
+    margin-bottom: -25px;
 }
 .navbar a{
 
@@ -48,14 +49,12 @@ nav{
 .navbar2 li a:hover{   
     background-color: black;
     padding: 15px;
-    font-size:25px ;
 }
 .bannerheading{
     margin-top: -350px;
     margin-left: 100px;
     font-size: 12px;
     font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -79,7 +78,6 @@ nav{
 .section3{
     display: flex;
     justify-content: space-between;
-    font-family: Arial, Helvetica, sans-serif;
 }
 .section3 img{
     margin: 140px 30px;
@@ -90,14 +88,12 @@ nav{
     margin-top: 138px;
     font-size: 34px;
     font-weight: bold;
-    font-family: 'Times New Roman', Times, serif;
     color: black;
 }
 .section3 p{
 
     font-size: 20px;
     width: 207%;
-    font-family: 'Times New Roman', Times, serif;
     color: black;
     margin-top: 191px;
     margin-left: -331px;
@@ -116,8 +112,7 @@ nav{
     display: flex;
     justify-content: space-between;
     background-color: black;
-    padding-right: 65px;
-    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 25px;
 }
 .card{
     margin: 4% 2% 2% 7%;
@@ -130,6 +125,7 @@ nav{
 }
 .card p{
     margin: 10px;
+    justify-content:space-around;
 }
 .card img{
     margin: 51px;
@@ -137,9 +133,10 @@ nav{
     justify-content: center;
     margin-bottom: 18px;
     width: 80%;
+    border-radius: 50%;
 }
 .card button{
-    margin-left: 80px;
+    margin-left: 90px;
     margin-bottom: 10px;
     width: 50%;
 }
@@ -148,13 +145,13 @@ nav{
     color: black;
 }
 .section6{
+    margin-top: 50px;
     background-image: url('./img/4.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 90vh;
+    height: 65vh;
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .section6 .container{
@@ -165,7 +162,7 @@ nav{
 }
 .section6 button{
     margin-left: 422px;
-    margin-top: 40px;
+    margin-top: 55px;
     margin-bottom: 10px;
     width: 20%;
 }
@@ -185,7 +182,7 @@ nav{
 }
 .card{
     margin: 5% 1% 6% 3%;
-    margin-top: 50px;
+    margin-top: 50px;;
 }
 .card h3{
     font-size: 30px;
@@ -195,15 +192,76 @@ nav{
 .card h6{
     text-align: center;
 }
-.card img{
-    margin: 0px;
-    width: 100%;
+.section7 .card img{
+    border-radius: 0%;
     height: 100%;
+    width: 80%;
+    margin-left: 27px;
+   
 }
+
 .section7 button{
     border-radius: none;
     margin-left: 422px;
     margin-top: 40px;
     margin-bottom: 10px;
     width: 20%;
-}
+}    
+    .footer{
+    background:#000;
+    padding:30px 0px;
+    font-family: 'Play', sans-serif;
+    text-align: center;
+    }
+    
+    .footer .row{
+    width:100%;
+    margin:1% 0%;
+    padding:0.6% 0%;
+    color:gray;
+    font-size:0.8em;
+    }
+    .footer .row2{
+        text-align: center;
+    }
+    .footer .row a{
+        display: block;
+        margin: 0px 10px;
+        text-decoration: none;
+        color: gray;
+        transition: 0.5s;
+        text-decoration:none;
+    }
+    
+    .footer .row a:hover{
+    color:#fff;
+    }
+    
+    .footer .row ul{
+    width:100%;
+    }
+    
+    .footer .row ul li{
+        display:inline-block;
+        margin:0px 10px;
+    }
+    
+    .footer .row a i{
+    font-size:2em;
+    margin:0% 1%;
+    }
+    
+    @media (max-width:720px){
+    .footer{
+    text-align:left;
+    padding:5%;
+    }
+    .footer .row ul li{
+    display:block;
+    margin:10px 0px;
+    text-align:left;
+    }
+    .footer .row a i{
+    margin:0% 3%;
+    }
+    }
