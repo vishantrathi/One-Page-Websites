@@ -46,6 +46,7 @@ body.worng{
 }
 .btn:hover{
     border-color: black;
+    size: 1rem;
 }
 .start-btn,
 .next-btn{
